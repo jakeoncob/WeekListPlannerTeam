@@ -73,4 +73,42 @@ public class TaskListTest {
         assertEquals("Monday", e.getDay());
         assertEquals("Read (Monday)", e.toString());
     }
+    @Test(expected = IllegalArgumentException.class)
+    public void countTasksRejectsBadDay() {
+        TaskList list = new TaskList();
+        list.countTasks("Funday");
+    }
+
+    @Test(expected = IndexOutOfBoundsException.class)
+    public void moveRejectsInvalidPosition() {
+        TaskList list = new TaskList();
+        list.addTask("Monday", "Study");
+        list.moveTask("Monday", 5, "Tuesday");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void completeRejectsBadDay() {
+        TaskList list = new TaskList();
+        list.addTask("Monday", "Study");
+        list.completeTask("Funday", 0);
+    }
+
+    @Test
+    public void getCompletedAfterMultipleTasks() {
+        TaskList list = new TaskList();
+
+        list.addTask("Monday", "Math");
+        list.addTask("Tuesday", "Reading");
+
+        list.completeTask("Monday", 0);
+        list.completeTask("Tuesday", 0);
+        
+        CompletedEntry[] entries = list.getCompleted();
+
+        assertEquals(2, entries.length);
+        assertEquals("Math", entries[0].getTask().getName());
+        assertEquals("Monday", entries[0].getDay());
+        assertEquals("Reading", entries[1].getTask().getName());
+        assertEquals("Tuesday", entries[1].getDay());
+    }
 }
