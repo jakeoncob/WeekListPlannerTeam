@@ -54,7 +54,7 @@ unless core MVP and undo/redo are stable.
 | File | Team member(s) | Actual contribution |
 |---|---|---|
 | LinkedChain.java | CS 2114 Staff | Provided starter implementation
-| Task.java |  | [wrote/reviewed/tested] |
+| Task.java | Kyra Ma  | wrote |
 | CompletedEntry.java | Jake Coble | wrote |
 | TaskList.java | Vihaan Gadkari | wrote |
 | TaskListApp.java | Elias Dejene | wrote |
