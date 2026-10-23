@@ -76,21 +76,22 @@ One lesson from this process was the importance of discussing and developing our
 
 ## File Attribution
 
-| File | Contributor(s) |
-|---|---|
-| `Action.java` | [Name(s)] |
-| `ActionType.java` | [Name(s)] |
-| `CompletedEntry.java` | [Name(s)] |
-| `Day.java` | [Name(s)] |
-| `LinkedChain.java` | CS 2114 Staff; [modifications by name(s), if applicable] |
-| `LinkedChainTest.java` | [Name(s)] |
-| `ModelClassesTest.java` | [Name(s)] |
-| `Task.java` | [Name(s)] |
-| `TaskList.java` | [Name(s)] |
-| `TaskListApp.java` | [Name(s)] |
-| `TaskListTest.java` | [Name(s)] |
-| `UndoHistory.java` | [Name(s)] |
-| `UndoHistoryTest.java` | [Name(s)] |
+| File | Team member(s) | Actual contribution |
+|---|---|---|
+| `Action.java` | Elias Dejene | Wrote |
+| `ActionType.java` | Vihaan Gadkari | Wrote |
+| `CompletedEntry.java` | Jake Coble | Wrote |
+| `Day.java` | Jake Coble | Wrote |
+| `LinkedChain.java` | CS 2114 Staff | Provided starter implementation |
+| `LinkedChainTest.java` | Elias Dejene | Wrote |
+| `ModelClassesTest.java` | Kyra Ma | Wrote |
+| `Task.java` | Kyra Ma | Wrote |
+| `TaskList.java` | Vihaan Gadkari | Wrote |
+| `TaskListApp.java` | Elias Dejene | Wrote |
+| `TaskListTest.java` | Kyra Ma | Wrote |
+| `UndoHistory.java` | Elias Dejene | Wrote |
+| `UndoHistoryTest.java` | Kyra Ma | Wrote |
+| `README.md` | Elias Dejene | Wrote |
 
 ## Final Reflection
 
