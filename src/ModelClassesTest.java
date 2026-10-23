@@ -40,7 +40,7 @@ public class ModelClassesTest {
         Task t = new Task("Read");
         CompletedEntry e = new CompletedEntry(t, Day.FRIDAY);
         assertSame(t, e.getTask());
-        assertEquals(Day.FRIDAY, e.getFromDay());
+        assertEquals(Day.FRIDAY, e.getDay());
         assertEquals("Read (Friday)", e.toString());
     }
     @Test(expected = IllegalArgumentException.class)
